@@ -3,7 +3,7 @@ A sample application that combines Preact, an unmodified React component, and a 
 
 ## Motivation
 
-React is a popular web framework but it is a quite large library that includes a virtual DOM, custom elements, and custom eventing. Most of these features are now available in the web platform in the form of the shadow DOM, custom elements, and custom events.
+React is a popular web framework but it is quite a large library that includes a virtual DOM, custom elements, and custom eventing. Most of these features are now available in the web platform in the form of the shadow DOM, custom elements, and custom events.
 
 [Preact X](https://preactjs.com/) is an alternative React compatible framework for running react applications in. It has a much smaller library size and utilizes web platform like events and the DOM which makes it more [amiable to integrate](https://custom-elements-everywhere.com/) with web components.
 
