@@ -17,11 +17,12 @@ Configuring and building this trivial example took surprisingly more time than e
 Here are the installation requirements:
 
 ### Node Setup
+
 1. Install nodejs and yarn
 
 `sudo apt-get install nodejs yarn`
 
-1. Setup a local user node repository
+2. Setup a local user node repository
 
 ```
 mkdir ~/.npm-global
@@ -29,17 +30,18 @@ mkdir ~/.npm-global
  export PATH=~/.npm-global/bin:$PATH
 ```
 
-### building
+### Build and Run
 1. Once the source is checked out run yarn to download all of the NPM dependencies:
 
 `yarn`
 
-1. Build the project
+2. Build the project
 
 `yarn build`
 
-1. Run the webpack development server to view the application. Note hot deployment is enabled and local file changes will immediately be reflected in the browser without a refresh.
+3. Run the webpack development server to view the application. Note hot deployment is enabled and local file changes will immediately be reflected in the browser without a refresh.
 
+`yarn start`
 
 
 Here are some helpful links that aided me in successfully configuring the application:
@@ -47,7 +49,7 @@ Here are some helpful links that aided me in successfully configuring the applic
 
 [Atom TypeScript Support](https://github.com/microsoft/typescript-lit-html-plugin/blob/master/README.md#with-atom)
 
-[Babel TypeScript Support](https://devblogs.microsoft.com/typescript/typescript-and-babel-7
+[Babel TypeScript Support](https://devblogs.microsoft.com/typescript/typescript-and-babel-7)
 
 [Babel or TypeScript Transpiling](https://blog.logrocket.com/choosing-between-babel-and-typescript-4ed1ad563e41/)  
 
