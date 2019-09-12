@@ -1,0 +1,35 @@
+{
+  "name": "preact-wc-test",
+  "version": "1.0.0",
+  "description": "Preact Web Component Test",
+  "module": "index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "@workday/canvas-kit-react": "^3.0.0-alpha.6",
+    "lit-element": "^2.2.1",
+    "preact": "^10.0.0-rc.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "typescript-lit-html-plugin": "^0.9.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
