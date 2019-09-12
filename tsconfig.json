@@ -7,11 +7,14 @@
     "strict": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    
+
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "jsx": "react",
-    "jsxFactory": "h"
+    "jsxFactory": "h",
+
+    "declaration": true,
+    "outDir": "dist"
 
   },
 

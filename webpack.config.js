@@ -30,7 +30,7 @@ module.exports = {
 
   output: {
     //filename: '[name].[chunkhash].js',
-    filename: 'preact-test.js',
+    filename: 'preact-wc-test.js',
     path: path.resolve(__dirname, 'dist')
   },
 
