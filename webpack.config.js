@@ -23,7 +23,8 @@ module.exports = {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
     alias: {
       'react': 'preact/compat',
-      'react-dom': 'preact/compat'
+      'react-dom': 'preact/compat',
+      'prop-types': 'preact/compat'
     }
   },
 
