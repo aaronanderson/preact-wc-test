@@ -49,10 +49,6 @@ Here are some helpful links that aided me in successfully configuring the applic
 
 [Atom TypeScript Support](https://github.com/microsoft/typescript-lit-html-plugin/blob/master/README.md#with-atom)
 
-[Babel TypeScript Support](https://devblogs.microsoft.com/typescript/typescript-and-babel-7)
-
-[Babel or TypeScript Transpiling](https://blog.logrocket.com/choosing-between-babel-and-typescript-4ed1ad563e41/)  
-
 [Preact Custom Element Module Augmentation](https://github.com/preactjs/preact/issues/1180#issuecomment-530038389)
 
 [TypeScript Custom Event Listeners](https://github.com/Microsoft/TypeScript/issues/28357)

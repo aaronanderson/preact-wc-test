@@ -13,7 +13,7 @@
   "author": "",
   "license": "Unlicense",
   "dependencies": {
-    "@workday/canvas-kit-react": "^3.0.0-alpha.6",
+    "@workday/canvas-kit-react-button": "^3.0.0-alpha.6",
     "lit-element": "^2.2.1",
     "preact": "^10.0.0-rc.3"
   },

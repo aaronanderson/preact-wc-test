@@ -1,7 +1,7 @@
 import { Component, h } from "preact";
 
 
-import { Button } from '@workday/canvas-kit-react';
+import { Button } from '@workday/canvas-kit-react-button';
 import { ACTION_EVENT, Action } from './preact-wc-test';
 
 
@@ -29,7 +29,7 @@ export class Main extends Component<MainProps, MainState> {
     return (
       <div>
         <preact-wc-test foo={this.props.status}>
-          <Button onClick={this.wcAction}>Button Label</Button>
+           <Button buttonType={Button.Types.Primary} onClick={this.wcAction}>React Button</Button>          
         </preact-wc-test>
       </div>
 
