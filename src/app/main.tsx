@@ -2,7 +2,7 @@ import { Component, h } from "preact";
 
 
 import { Button } from '@workday/canvas-kit-react';
-import {ACTION_EVENT, Action } from './preact-wc-test';
+import { ACTION_EVENT, Action } from './preact-wc-test';
 
 
 
@@ -14,15 +14,6 @@ interface MainState {
   status: string;
 }
 
-/*
-<preact-wc-test foo={this.props.status}>
-      </preact-wc-test>
-<Button onClick={this.wcAction}>Button Label</Button>
-
-<preact-wc-test foo={this.props.status}>
-      </preact-wc-test>
-
-*/
 export class Main extends Component<MainProps, MainState> {
 
   constructor(props: MainProps) {
@@ -46,9 +37,7 @@ export class Main extends Component<MainProps, MainState> {
   }
 
   private wcAction = (event: any) => {
-    //alert("hi!");
-
-    const action : Action ={
+    const action: Action = {
       type: 'main'
     }
     event.target.dispatchEvent(new CustomEvent(ACTION_EVENT, { bubbles: true, detail: action }))
