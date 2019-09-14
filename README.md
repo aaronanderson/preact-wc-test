@@ -33,7 +33,7 @@ mkdir ~/.npm-global
 ### Build and Run
 1. Once the source is checked out run yarn to download all of the NPM dependencies:
 
-`yarn`
+`yarn install`
 
 2. Build the project
 

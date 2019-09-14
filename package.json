@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Preact Web Component Test",
   "module": "index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
@@ -18,6 +21,7 @@
     "preact": "^10.0.0-rc.3"
   },
   "devDependencies": {
+    "@types/webpack-env": "^1.14.0",
     "autoprefixer": "^9.6.1",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
